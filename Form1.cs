@@ -56,8 +56,6 @@ namespace WindowsFormsApplication1 {
             cmbPositionEffect.Items.Add("Close");
             cmbPositionEffect.Items.Add("Auto");
             cmbPositionEffect.SelectedIndex = 0;
-
-
         }
 
         private void OnStatus(object sender, MESSAGE_TYPE staus, byte[] msg) {
