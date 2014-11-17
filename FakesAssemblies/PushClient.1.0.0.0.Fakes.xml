@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PushClient.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Intelligence.Fakes.ShimPACKAGE_REC">
+            <summary>Shim type of Intelligence.PACKAGE_REC</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.ShimPACKAGE_REC.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.ShimPACKAGE_REC.#ctor(Intelligence.PACKAGE_REC)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.ShimPACKAGE_REC.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.ShimPACKAGE_REC.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPACKAGE_REC.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPACKAGE_REC.Constructor">
+            <summary>Sets the shim of PACKAGE_REC.PACKAGE_REC()</summary>
+        </member>
+        <member name="T:Intelligence.Fakes.ShimPACKAGE_REC.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Intelligence.Fakes.ShimPushClient">
+            <summary>Shim type of Intelligence.PushClient</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.ShimPushClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.ShimPushClient.#ctor(Intelligence.PushClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.ShimPushClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.ShimPushClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AES_KEYGet">
+            <summary>Sets the shim of PushClient.get_AES_KEY()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.API_VERSIONGet">
+            <summary>Sets the shim of PushClient.get_API_VERSION()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AddDebugLogString">
+            <summary>Sets the shim of PushClient.AddDebugLog(String msg)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AddLogString">
+            <summary>Sets the shim of PushClient.AddLog(String msg)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AppNameGet">
+            <summary>Sets the shim of PushClient.get_AppName()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AppNameSetString">
+            <summary>Sets the shim of PushClient.set_AppName(String value)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ClearTopicDataString">
+            <summary>Sets the shim of PushClient.ClearTopicData(String topic)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.Connect">
+            <summary>Sets the shim of PushClient.Connect()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.Connect2Push">
+            <summary>Sets the shim of PushClient.Connect2Push()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ConnectStringInt32">
+            <summary>Sets the shim of PushClient.Connect(String host, Int32 port)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ConnectStringInt32Int32">
+            <summary>Sets the shim of PushClient.Connect(String host, Int32 port, Int32 TimeOutInterval)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ConnectThread_EntryPoint">
+            <summary>Sets the shim of PushClient.ConnectThread_EntryPoint()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ConnectionStatusGet">
+            <summary>Sets the shim of PushClient.get_ConnectionStatus()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ConstructorStringInt32DATA_MODEString">
+            <summary>Sets the shim of PushClient.PushClient(String host, Int32 port, DATA_MODE dataMode, String appName)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ConstructorStringInt32DATA_MODEStringString">
+            <summary>Sets the shim of PushClient.PushClient(String host, Int32 port, DATA_MODE dataMode, String appName, String callCom)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ConstructorStringInt32DATA_MODEStringStringBoolean">
+            <summary>Sets the shim of PushClient.PushClient(String host, Int32 port, DATA_MODE dataMode, String appName, String callCom, Boolean isDelay)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ConstructorStringInt32String">
+            <summary>Sets the shim of PushClient.PushClient(String host, Int32 port, String appName)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ConstructorStringInt32StringString">
+            <summary>Sets the shim of PushClient.PushClient(String host, Int32 port, String appName, String v)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.DataModeGet">
+            <summary>Sets the shim of PushClient.get_DataMode()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.Disconnect">
+            <summary>Sets the shim of PushClient.Disconnect()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.DisconnectString">
+            <summary>Sets the shim of PushClient.Disconnect(String msg)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.Dispose">
+            <summary>Sets the shim of PushClient.Dispose()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.DoAnalyePACKAGE_REC">
+            <summary>Sets the shim of PushClient.DoAnalye(PACKAGE_REC PackageRec)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.FeedPkgThreadHB_EntryPoint">
+            <summary>Sets the shim of PushClient.FeedPkgThreadHB_EntryPoint()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.FeedPkgThread_EntryPoint">
+            <summary>Sets the shim of PushClient.FeedPkgThread_EntryPoint()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.GetRequestId">
+            <summary>Sets the shim of PushClient.GetRequestId()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.HBSGet">
+            <summary>Sets the shim of PushClient.get_HBS()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.HeartBeatThread_EntryPoint">
+            <summary>Sets the shim of PushClient.HeartBeatThread_EntryPoint()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.IPGet">
+            <summary>Sets the shim of PushClient.get_IP()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.InitStringInt32DATA_MODEString">
+            <summary>Sets the shim of PushClient.Init(String host, Int32 port, DATA_MODE dataMode, String appName)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.KEYGet">
+            <summary>Sets the shim of PushClient.get_KEY()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.LocalTimeTotSec">
+            <summary>Sets the shim of PushClient.LocalTimeTotSec()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.MyIPGet">
+            <summary>Sets the shim of PushClient.get_MyIP()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.OTPGet">
+            <summary>Sets the shim of PushClient.get_OTP()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.OnRcvDataAddOnRcvData_EventHandler">
+            <summary>Sets the shim of PushClient.add_OnRcvData(OnRcvData_EventHandler value)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.OnRcvDataRemoveOnRcvData_EventHandler">
+            <summary>Sets the shim of PushClient.remove_OnRcvData(OnRcvData_EventHandler value)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.OnStatusAddOnStatus_EventHandler">
+            <summary>Sets the shim of PushClient.add_OnStatus(OnStatus_EventHandler value)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.OnStatusRemoveOnStatus_EventHandler">
+            <summary>Sets the shim of PushClient.remove_OnStatus(OnStatus_EventHandler value)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.Processed">
+            <summary>Sets the shim of PushClient.Processed()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.PublishStringUInt16ByteArray">
+            <summary>Sets the shim of PushClient.Publish(String topic, UInt16 dataType, Byte[] body)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.PublishStringUInt16ByteArrayBoolean">
+            <summary>Sets the shim of PushClient.Publish(String topic, UInt16 dataType, Byte[] body, Boolean keep)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.PublishStringUInt16ByteArrayBooleanBoolean">
+            <summary>Sets the shim of PushClient.Publish(String topic, UInt16 dataType, Byte[] body, Boolean keep, Boolean useRequestid)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.PublishStringUInt16ByteArrayBooleanInt64">
+            <summary>Sets the shim of PushClient.Publish(String topic, UInt16 dataType, Byte[] body, Boolean keep, Int64 Requestid)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ReceiveThread_EntryPoint">
+            <summary>Sets the shim of PushClient.ReceiveThread_EntryPoint()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.RecoverDataString">
+            <summary>Sets the shim of PushClient.RecoverData(String topic)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ResetTime">
+            <summary>Sets the shim of PushClient.ResetTime()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.SendByteArray">
+            <summary>Sets the shim of PushClient.Send(Byte[] pkg)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.SendKeyBackPACKAGE_REC">
+            <summary>Sets the shim of PushClient.SendKeyBack(PACKAGE_REC PackageRec)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.ServerTime">
+            <summary>Sets the shim of PushClient.ServerTime()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.SubscribeString">
+            <summary>Sets the shim of PushClient.Subscribe(String topic)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.Topic2ByteBooleanBooleanInt32">
+            <summary>Sets the shim of PushClient.Topic2Byte(Boolean keep, Boolean useRequestid, Int32 topicLen)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.UnsubscribeString">
+            <summary>Sets the shim of PushClient.Unsubscribe(String topic)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.UserNoGet">
+            <summary>Sets the shim of PushClient.get_UserNo()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.UserTopicGet">
+            <summary>Sets the shim of PushClient.get_UserTopic()</summary>
+        </member>
+        <member name="T:Intelligence.Fakes.ShimPushClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.AES_KEYGet">
+            <summary>Sets the shim of PushClient.get_AES_KEY()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.API_VERSIONGet">
+            <summary>Sets the shim of PushClient.get_API_VERSION()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.AddDebugLogString">
+            <summary>Sets the shim of PushClient.AddDebugLog(String msg)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.AddLogString">
+            <summary>Sets the shim of PushClient.AddLog(String msg)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.AppNameGet">
+            <summary>Sets the shim of PushClient.get_AppName()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.AppNameSetString">
+            <summary>Sets the shim of PushClient.set_AppName(String value)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.ClearTopicDataString">
+            <summary>Sets the shim of PushClient.ClearTopicData(String topic)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.Connect">
+            <summary>Sets the shim of PushClient.Connect()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.Connect2Push">
+            <summary>Sets the shim of PushClient.Connect2Push()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.ConnectStringInt32">
+            <summary>Sets the shim of PushClient.Connect(String host, Int32 port)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.ConnectStringInt32Int32">
+            <summary>Sets the shim of PushClient.Connect(String host, Int32 port, Int32 TimeOutInterval)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.ConnectThread_EntryPoint">
+            <summary>Sets the shim of PushClient.ConnectThread_EntryPoint()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.ConnectionStatusGet">
+            <summary>Sets the shim of PushClient.get_ConnectionStatus()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.DataModeGet">
+            <summary>Sets the shim of PushClient.get_DataMode()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.Disconnect">
+            <summary>Sets the shim of PushClient.Disconnect()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.DisconnectString">
+            <summary>Sets the shim of PushClient.Disconnect(String msg)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.Dispose">
+            <summary>Sets the shim of PushClient.Dispose()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.DoAnalyePACKAGE_REC">
+            <summary>Sets the shim of PushClient.DoAnalye(PACKAGE_REC PackageRec)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.FeedPkgThreadHB_EntryPoint">
+            <summary>Sets the shim of PushClient.FeedPkgThreadHB_EntryPoint()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.FeedPkgThread_EntryPoint">
+            <summary>Sets the shim of PushClient.FeedPkgThread_EntryPoint()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.GetRequestId">
+            <summary>Sets the shim of PushClient.GetRequestId()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.HBSGet">
+            <summary>Sets the shim of PushClient.get_HBS()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.HeartBeatThread_EntryPoint">
+            <summary>Sets the shim of PushClient.HeartBeatThread_EntryPoint()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.IPGet">
+            <summary>Sets the shim of PushClient.get_IP()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.InitStringInt32DATA_MODEString">
+            <summary>Sets the shim of PushClient.Init(String host, Int32 port, DATA_MODE dataMode, String appName)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.KEYGet">
+            <summary>Sets the shim of PushClient.get_KEY()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.LocalTimeTotSec">
+            <summary>Sets the shim of PushClient.LocalTimeTotSec()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.MyIPGet">
+            <summary>Sets the shim of PushClient.get_MyIP()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.OTPGet">
+            <summary>Sets the shim of PushClient.get_OTP()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.OnRcvDataAddOnRcvData_EventHandler">
+            <summary>Sets the shim of PushClient.add_OnRcvData(OnRcvData_EventHandler value)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.OnRcvDataRemoveOnRcvData_EventHandler">
+            <summary>Sets the shim of PushClient.remove_OnRcvData(OnRcvData_EventHandler value)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.OnStatusAddOnStatus_EventHandler">
+            <summary>Sets the shim of PushClient.add_OnStatus(OnStatus_EventHandler value)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.OnStatusRemoveOnStatus_EventHandler">
+            <summary>Sets the shim of PushClient.remove_OnStatus(OnStatus_EventHandler value)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.Processed">
+            <summary>Sets the shim of PushClient.Processed()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.PublishStringUInt16ByteArray">
+            <summary>Sets the shim of PushClient.Publish(String topic, UInt16 dataType, Byte[] body)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.PublishStringUInt16ByteArrayBoolean">
+            <summary>Sets the shim of PushClient.Publish(String topic, UInt16 dataType, Byte[] body, Boolean keep)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.PublishStringUInt16ByteArrayBooleanBoolean">
+            <summary>Sets the shim of PushClient.Publish(String topic, UInt16 dataType, Byte[] body, Boolean keep, Boolean useRequestid)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.PublishStringUInt16ByteArrayBooleanInt64">
+            <summary>Sets the shim of PushClient.Publish(String topic, UInt16 dataType, Byte[] body, Boolean keep, Int64 Requestid)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.ReceiveThread_EntryPoint">
+            <summary>Sets the shim of PushClient.ReceiveThread_EntryPoint()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.RecoverDataString">
+            <summary>Sets the shim of PushClient.RecoverData(String topic)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.ResetTime">
+            <summary>Sets the shim of PushClient.ResetTime()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.SendByteArray">
+            <summary>Sets the shim of PushClient.Send(Byte[] pkg)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.SendKeyBackPACKAGE_REC">
+            <summary>Sets the shim of PushClient.SendKeyBack(PACKAGE_REC PackageRec)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.ServerTime">
+            <summary>Sets the shim of PushClient.ServerTime()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.SubscribeString">
+            <summary>Sets the shim of PushClient.Subscribe(String topic)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.Topic2ByteBooleanBooleanInt32">
+            <summary>Sets the shim of PushClient.Topic2Byte(Boolean keep, Boolean useRequestid, Int32 topicLen)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.UnsubscribeString">
+            <summary>Sets the shim of PushClient.Unsubscribe(String topic)</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.UserNoGet">
+            <summary>Sets the shim of PushClient.get_UserNo()</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.ShimPushClient.AllInstances.UserTopicGet">
+            <summary>Sets the shim of PushClient.get_UserTopic()</summary>
+        </member>
+        <member name="T:Intelligence.Fakes.StubPACKAGE_REC">
+            <summary>Stub type of Intelligence.PACKAGE_REC</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.StubPACKAGE_REC.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.StubPACKAGE_REC.InitializeStub">
+            <summary>Initializes a new instance of type StubPACKAGE_REC</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.StubPACKAGE_REC.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.StubPACKAGE_REC.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.StubPACKAGE_REC.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Intelligence.Fakes.StubPushClient">
+            <summary>Stub type of Intelligence.PushClient</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.StubPushClient.#ctor(System.String,System.Int32,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.StubPushClient.#ctor(System.String,System.Int32,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.StubPushClient.#ctor(System.String,System.Int32,Intelligence.DATA_MODE,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.StubPushClient.#ctor(System.String,System.Int32,Intelligence.DATA_MODE,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.StubPushClient.#ctor(System.String,System.Int32,Intelligence.DATA_MODE,System.String,System.String,System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Intelligence.Fakes.StubPushClient.InitializeStub">
+            <summary>Initializes a new instance of type StubPushClient</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.StubPushClient.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.StubPushClient.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Intelligence.Fakes.StubPushClient.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
