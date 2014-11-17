@@ -19,13 +19,10 @@ namespace WindowsFormsApplication1 {
         private PushClient push;
         private String subTopic1 = "SSEOrder.Sv";
 //        DateTime dtStart = TimeZone.CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1, 0, 0, 0, 0));
-        DateTime gtm = new DateTime(1970, 1, 1, 0, 0, 0, 0);
-        string smsg = "短網址服務，讓使用者可將一長串的網址內容變成以「http://goo.gl/」為開頭的短網址。";
-        byte[] msg;
+        DateTime gtm = new DateTime(1970, 1, 1, 0, 0, 0, 0);        
 
         public Form1() {
-            InitializeComponent();
-            msg = encoding.GetBytes(smsg);
+            InitializeComponent();            
         }
 
         private void Form1_Load(object sender, EventArgs e) 
